@@ -1,0 +1,128 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .main_header {
+   
+    box-shadow: none; 
+    padding: 10px 0;
+  }
+  
+  .logo-img {
+    max-height: 20mm;
+    max-width: 20mm;
+    height: auto;
+  }
+  
+  .logo_head {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_head p {
+    margin-left: 10px; 
+  }
+  
+ 
+  .railbuzz {
+    font-size: 2.5rem;
+    color: #596169;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu_box {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+  }
+  
+  .top_nav_links {
+    flex: 1;
+  }
+  
+  .top_nav_links ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .top_nav_links li {
+    margin-right: 20px;
+  }
+  
+  .top_nav_links a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .top_nav_links a:hover {
+    color: #78476a;
+  }
+  
+ 
+  .mt-5 {
+    margin-top: 5rem;
+  }
+  
+  .railbuzz {
+    font-size: 2.5rem;
+    color: #f1f1f1;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+  
+  
+ 
+
+  .footer {
+    background-color: #ffffff;
+    padding: 30px 0;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .footer h3 {
+    font-size: 1.5rem;
+    color: #853c3c;
+  }
+  
+  .copyright {
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+
+  #searchnav{
+    background-color:rgb(212, 102, 102)
+  }
+  
